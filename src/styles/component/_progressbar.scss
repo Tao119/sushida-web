@@ -1,0 +1,32 @@
+@use "../foundation" as *;
+
+.c-progressbar {
+    width: 25px;
+    height: 5px;
+    appearance: none;
+
+    &::-webkit-progress-value {
+        border-radius: 8px;
+    }
+
+    &--red::-webkit-progress-value {
+        background-color: $red;
+    }
+
+    &--yellow::-webkit-progress-value {
+        background-color: $yellow;
+    }
+
+    &--blue::-webkit-progress-value {
+        background-color: $blue;
+    }
+
+    &--green::-webkit-progress-value {
+        background-color: $green;
+    }
+
+    &::-webkit-progress-bar {
+        background-color: $pale-blue;
+        border-radius: 8px;
+    }
+}

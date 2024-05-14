@@ -1,0 +1,38 @@
+//colors
+
+$white: #ffffff;
+$black: #1e1e1e;
+
+$gray: #bababa;
+$dark-gray: #636363;
+$pale-gray: #e1e1e1;
+$light-gray: #f7f7f7;
+
+$blue: #004df2;
+$light-blue: #437fff;
+$pale-blue: #eaf1ff;
+
+$yellow: #f2f200;
+$red: #ff437f;
+$green: #7fff43;
+
+
+//font size
+
+$fs-title: 2.0rem;
+$fs-sub_title: 1.8rem;
+$fs-text: 1.4rem;
+$fs-input: 1.6rem;
+$fs-medium: 1.6rem;
+$fs-small: 1.2rem;
+$fs-smaller: 1.0rem;
+$fs-x-small: 0.8rem;
+
+// break points
+
+$breakpoints: (
+    pc: 1280px,
+    tb: 768px,
+    sp: 560px,
+    min: 320px,
+    ) !default;

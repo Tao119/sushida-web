@@ -1,0 +1,26 @@
+@use '../foundation' as *;
+
+.c-button {
+    height: 30px;
+    width: 150px;
+    border: 1px solid $light-gray;
+    color: $black;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: $fs-text;
+    text-align: center;
+    cursor: pointer;
+
+    &--white {
+        background-color: $white;
+    }
+
+    &--blue {
+        background-color: $blue;
+    }
+
+    &.-mb30 {
+        margin-bottom: 30px;
+    }
+
+}

@@ -1,0 +1,15 @@
+@use "../foundation" as *;
+
+.c-search-box {
+    height: 28px;
+    width: 250px;
+    background-color: $white;
+    border: 1px solid $gray;
+    color: $black;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: $fs-text;
+    text-align: left;
+    padding-left: 10px;
+    padding-left: 4px;
+}

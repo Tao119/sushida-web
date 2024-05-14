@@ -1,0 +1,48 @@
+@use "../foundation" as *;
+
+.c-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    &__text {
+        display: flex;
+        font-size: $fs-text;
+        align-items: center;
+        text-align: right;
+        padding-left: 30px;
+        font-size: $fs-medium;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: flex-end;
+        font-size: $fs-text;
+        align-items: center;
+    }
+
+    &__nav-item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__nav-link {
+        text-decoration: underline;
+        color: $black;
+        padding: 0 10px;
+        cursor: pointer;
+        font-size: $fs-medium;
+
+        &--disabled {
+            display: flex;
+            text-decoration: none;
+            cursor: default;
+        }
+
+        &--active {
+            color: $red;
+            text-decoration: none;
+            cursor: default;
+        }
+    }
+}

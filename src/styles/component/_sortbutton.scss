@@ -1,0 +1,13 @@
+.c-sort-button {
+    background: none;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+
+    &__icon {
+        width: 15px;
+        height: 15px;
+        border: none;
+    }
+}

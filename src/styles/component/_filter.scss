@@ -1,0 +1,51 @@
+@use "../foundation" as *;
+
+.c-filter {
+    width: 100%;
+    color: $black;
+    text-align: left;
+    font-size: $fs-small;
+    cursor: pointer;
+}
+
+.c-filter__container {
+    width: 200px;
+    background-color: $white;
+    border: 1px solid $gray;
+    border-radius: 5px;
+    box-shadow: none;
+    height: 50px;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: "";
+        width: 1px;
+        height: 10px;
+        background-color: $gray;
+        transform-origin: bottom;
+        position: absolute;
+        top: 18px;
+        right: 15px;
+    }
+
+    &::before {
+        transform: rotate(25deg);
+    }
+
+    &::after {
+        transform: rotate(-25deg);
+    }
+
+    &.-w300 {
+        width: 300px;
+    }
+
+    &.-mr30 {
+        margin-right: 30px;
+    }
+
+    &.-mb30 {
+        margin-bottom: 30px;
+    }
+}
